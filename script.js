@@ -36,7 +36,7 @@ function updateContent(format) {
   const newTitle = `Image to ${label} Converter - Free & Fast Online Tool`;
   pageTitle.textContent = newTitle;
   mainHeading.textContent = `Image to ${label} Converter`;
-  mainSubtext.textContent = `Free, lightweight, and browser-based 🌱. Convert your Images to ${label} locally.`;
+  mainSubtext.textContent = `Free, lightweight, and browser-based. Convert your Images to ${label} locally or offline 🌱.`;
 }
 
 outputFormatSelect.addEventListener("change", function () {
