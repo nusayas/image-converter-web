@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -9,19 +9,22 @@
       content="Convert Image to JPG instantly in your browser. 100% free, no signup required."
     />
     <title id="pageTitle">Fast PNG to JPG Converter | Free & Secure</title>
-    <meta name="description" content="Convert PNG images to JPG online in seconds. Free, fast, and no watermark. Try it now!">
-    <meta name="robots" content="index, follow">
+    <meta
+      name="description"
+      content="Convert PNG images to JPG online in seconds. Free, fast, and no watermark. Try it now!"
+    />
+    <meta name="robots" content="index, follow" />
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body
     class="bg-gray-100 text-gray-800 min-h-screen flex flex-col items-center justify-center p-4"
   >
-    <header class="mb-8 text-center">
+    <header class="mb-4 text-center">
       <h1 id="mainHeading" class="text-4xl font-bold mb-2">
         Image to JPG Converter
       </h1>
       <p id="mainSubtext" class="text-lg text-gray-600">
-        Free, lightweight, and browser-based. Convert your Images locally or offline 🌱.
+        Free, lightweight, and browser-based. Convert your Images locally 🌱.
       </p>
     </header>
 
@@ -30,9 +33,7 @@
         id="dropzone"
         class="border-2 border-dashed border-gray-300 p-6 rounded-lg text-center cursor-pointer hover:border-blue-400 transition"
       >
-        <p class="text-gray-600">
-          Drag & drop images here or click to select
-        </p>
+        <p class="text-gray-600">Drag & drop images here or click to select</p>
         <input
           id="fileInput"
           type="file"
@@ -99,7 +100,15 @@
       <div id="output" class=""></div>
     </main>
 
+    <!-- Navigation Bar -->
+    <nav class="w-full max-w-xl flex justify-center gap-4 mt-8">
+      <a href="/about.html" class="text-blue-500">About</a>
+      <a href="/contact.html" class="text-blue-500">Contact</a>
+      <a href="/privacy-policy.html" class="text-blue-500">Privacy Policy</a>
+    </nav>
+
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
   </body>
 </html>
